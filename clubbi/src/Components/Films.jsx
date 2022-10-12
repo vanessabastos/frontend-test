@@ -50,6 +50,7 @@ import '../App.css';
           placeholder='Pesquise por filme'
         />
         
+        <a href="/" className="btn btn-outline-primary">Home</a>
         <a href="actor" className="btn btn-outline-primary">Actor</a>
         <a href="location" className="btn btn-outline-primary">Location</a>
         <div className='cards'>

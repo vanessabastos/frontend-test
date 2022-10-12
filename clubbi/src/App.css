@@ -41,19 +41,6 @@ body {
   justify-content: space-evenly;
 }
 
-.form-control {
-  width: auto;
-}
-
-.fw-bold {
-  text-align: center;
-  font-size: 2.5em;
-}
-
-.fw-bold:hover {
-  color:blueviolet;
-}
-
 .cards {
   display: flex;
   height: 450px;
@@ -71,6 +58,7 @@ body {
  background-color:crimson;
  border-radius: 20px;
 }
+
 #films-card:hover {
   background-color: hotpink;
 }
@@ -85,18 +73,11 @@ body {
 }
 
 .description {
-  overflow: scroll;
+  overflow: auto;
   width: 380px;
   height: 100px;
   margin-left: 6px;
 }
-
-/* #grade {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-
-} */
 
 .form-control {
   text-align: center;
@@ -113,7 +94,6 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
-
 
 @media only screen and (max-width: 600px) {
   body {

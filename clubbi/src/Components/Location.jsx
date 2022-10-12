@@ -51,6 +51,7 @@ class Locations extends Component {
           placeholder='Pesquise por localização'
         />
 
+        <a href="/" className="btn btn-outline-primary">Home</a>
         <a href="actor" className="btn btn-outline-primary">Actor</a>
         <a href="films" className="btn btn-outline-primary">Films</a>
         <div id="position-relative m-4">

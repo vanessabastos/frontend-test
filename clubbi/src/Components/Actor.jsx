@@ -52,6 +52,8 @@ class Locations extends Component {
           placeholder='Pesquise por personagem'
           className="form-control"
         />
+
+        <a href="/" className="btn btn-outline-primary">Home</a>
         <a href="films" className="btn btn-outline-primary">Films</a>
         <a href="location" className="btn btn-outline-primary">Location</a>
         <div id='grade'>
