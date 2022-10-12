@@ -1,5 +1,4 @@
 import './App.css';
-
 import React, { Component } from 'react'
 import Home from './Components/Home';
 import Actor from './Components/Actor';
