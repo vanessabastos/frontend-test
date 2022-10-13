@@ -8,6 +8,11 @@ body {
   background-color:black;
 }
 
+#loading {
+  color:antiquewhite;
+  text-align: center;
+}
+
 .style {
   align-items: center;
   display: flex;
@@ -23,7 +28,7 @@ body {
 #welcome {
   color: white;
   margin-left: -120px;
-  margin-bottom: -25px;
+  margin-bottom: -20px;
 }
 
 #clubbi {
@@ -60,7 +65,7 @@ body {
 }
 
 #films-card:hover {
-  background-color: hotpink;
+  background-color:rgb(212, 100, 123);
 }
 
 .films-image {
@@ -85,6 +90,7 @@ body {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 30px;
+  background-color: lightgray;
 }
 
 .list {
